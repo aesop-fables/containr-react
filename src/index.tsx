@@ -2,7 +2,7 @@ import React, { createContext, useContext } from 'react';
 import { IServiceContainer, ServiceContainerStack } from '@aesop-fables/containr';
 import useConstant, { useDisposableConstant } from './hooks/useConstant';
 
-export { useConstant, useDisposableConstant };
+export * from './hooks';
 
 export const ServiceContext = createContext<null | ServiceContainerStack>(null);
 const ServiceContextProvider = ServiceContext.Provider;

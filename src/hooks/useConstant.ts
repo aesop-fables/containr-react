@@ -1,5 +1,4 @@
 import React, { useEffect } from 'react';
-import { Disposable } from '@aesop-fables/containr';
 
 type ResultBox<T> = { v: T };
 
@@ -11,6 +10,10 @@ export default function useConstant<T>(fn: () => T): T {
   }
 
   return ref.current.v;
+}
+
+export interface Disposable {
+  dispose(): void;
 }
 
 export function useDisposableConstant<T extends Disposable>(fn: () => T, destructor?: () => void): T {
