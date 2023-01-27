@@ -45,7 +45,7 @@
     "lib/**/*"
   ],
   "dependencies": {
-    "@aesop-fables/containr": "file:../containr",
+    "@aesop-fables/containr": "^0.1.5",
     "jest-mock-extended": "^3.0.1",
     "react": "^18.2.0",
     "reflect-metadata": "^0.1.13"
