@@ -1,6 +1,6 @@
 {
   "name": "@aesop-fables/containr-react",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "A set of providers/hooks that make it easy to leverage `@aesop-fables/containr` in any react (or react-native) app",
   "type": "commonjs",
   "exports": {
@@ -51,7 +51,7 @@
     "lib/**/*"
   ],
   "peerDependencies": {
-    "@aesop-fables/containr": "0.2.x",
+    "@aesop-fables/containr": "0.3.x",
     "jest-mock-extended": "3.x",
     "react": ">= 17.x",
     "reflect-metadata": "0.x"
