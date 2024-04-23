@@ -7,13 +7,10 @@
   resolved "https://registry.yarnpkg.com/@adobe/css-tools/-/css-tools-4.2.0.tgz#e1a84fca468f4b337816fcb7f0964beb620ba855"
   integrity sha512-E09FiIft46CmH5Qnjb0wsW54/YQd69LsxeKUOWawmws1XWvyFGURnAChH0mlr7YPFR1ofwvUQfcL0J3lMxXqPA==
 
-"@aesop-fables/containr@^0.4.0":
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/@aesop-fables/containr/-/containr-0.4.0.tgz#c8e023f60eed2fc3ab28ff93adbd182a077271ee"
-  integrity sha512-LBKvrkQA2UuxBLj42RmgMSzU8vM8cPRqEsBA42D8cvrg5QjeAl0f0IK3luFMA2bWfzzH8t4CV9ib6Gz2JZffQA==
-  dependencies:
-    jest-mock-extended "^3.0.1"
-    reflect-metadata "^0.1.13"
+"@aesop-fables/containr@^0.5.1":
+  version "0.5.1"
+  resolved "https://registry.yarnpkg.com/@aesop-fables/containr/-/containr-0.5.1.tgz#62f6cc2bdd1771a8ab4f0496754497cf7081c7e9"
+  integrity sha512-pA7Ocq1oiAhzo3+2HyoEEO+eTOCoALd7IBgC2AGBQBbkTro3FvSf2Qbqxjix10RKPBKoCwNMZKK3FsHXdxO3Pg==
 
 "@ampproject/remapping@^2.2.0":
   version "2.2.0"
