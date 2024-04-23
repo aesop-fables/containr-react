@@ -53,7 +53,7 @@
     "lib/**/*"
   ],
   "peerDependencies": {
-    "@aesop-fables/containr": "0.5.x",
+    "@aesop-fables/containr": ">= 0.4.x",
     "react": ">= 17.x",
     "reflect-metadata": "0.x"
   },
