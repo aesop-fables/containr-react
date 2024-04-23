@@ -87,6 +87,9 @@ jobs:
         id: test
         run: yarn test:ci
 
+      - name: Lint
+        run: yarn lint
+
       - name: Upload Test Report
         uses: dorny/test-reporter@v1
         if: success() || failure()
